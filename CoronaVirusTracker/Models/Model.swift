@@ -20,12 +20,12 @@ enum CoronaStatusType: String {
     static var caseOrderByFieldsQuery: String {
         "Country_Region asc,Province_State asc"
     }
-
+    
     var outStatisticForSumQuery: String {
         let field = self == .death ? "Deaths" : rawValue.capitalized
         return "[{\"statisticType\":\"sum\",\"onStatisticField\":\"\(field)\",\"outStatisticFieldName\":\"value\"}]"
     }
-       
+    
     var totalCountWhereQuery: String {
         let field = self == .recovered ? self.rawValue : CoronaStatusType.confirmed.rawValue
         return "\(field.capitalized) > 0"
@@ -46,8 +46,8 @@ struct CoronaTotalCount {
     }
     
     var recoveredText: String {
-          Utils.numberFormatter.string(from: NSNumber(value: recovered)) ?? "0"
-      }
+        Utils.numberFormatter.string(from: NSNumber(value: recovered)) ?? "0"
+    }
     
     var sick: Int {
         confirmed - death - recovered
@@ -78,7 +78,7 @@ struct CoronaTotalCount {
 struct CoronaCaseResponse: Decodable {
     
     let features: [CoronaCaseFeatures]
-
+    
     struct CoronaCaseFeatures: Decodable {
         let attributes: CoronaCase
     }

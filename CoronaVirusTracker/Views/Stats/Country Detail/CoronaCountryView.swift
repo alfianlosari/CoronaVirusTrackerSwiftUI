@@ -84,5 +84,3 @@ struct CoronaCaseRegionDetailView: View {
         .fixedSize(horizontal: false, vertical: true)
     }
 }
-
-
