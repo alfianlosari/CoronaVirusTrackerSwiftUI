@@ -18,11 +18,7 @@ struct TopicView: View {
             VStack(alignment: .leading, spacing: 32) {
                 ForEach(self.topic.questions) { question in
                     VStack(alignment: .leading, spacing: 8) {
-                        Text(question.title)
-                            .font(.headline)
-                        Text(question.subtitle)
-                            .font(.body)
-                        .cardContained()
+                        SectionCardView(title: question.title, subtitle: question.subtitle)
                     }
                 }
             }

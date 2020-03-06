@@ -23,11 +23,7 @@ struct AboutView: View {
                     
                     ForEach(about.copyrights) { copy in
                         VStack(alignment: .leading, spacing: 8) {
-                            Text(copy.title)
-                                .font(.title)
-                            Text(copy.license)
-                                .font(.body)
-                            .cardContained()
+                            SectionCardView(title: copy.title, subtitle: copy.license)
                         }
                     }
                 }

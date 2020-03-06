@@ -32,20 +32,12 @@ struct AdviceView: View {
                             }
                         }
                         VStack(alignment: .leading, spacing: 8) {
-                            Text(adviceObservable.advice!.title)
-                                .font(.title)
-                            Text(adviceObservable.advice!.subtitle)
-                                .font(.body)
-                                .cardContained()
+                            SectionCardView(title: adviceObservable.advice!.title, subtitle: adviceObservable.advice!.subtitle)
                         }
                         
                         ForEach(adviceObservable.advice!.basics) { basic in
                             VStack(alignment: .leading, spacing: 8) {
-                                Text(basic.title)
-                                    .font(.headline)
-                                Text(basic.subtitle)
-                                    .font(.body)
-                                    .cardContained()
+                                SectionCardView(title: basic.title, subtitle: basic.subtitle)
                             }
                         }
                     }
@@ -57,3 +49,4 @@ struct AdviceView: View {
         }
     }
 }
+
