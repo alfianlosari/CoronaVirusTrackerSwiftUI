@@ -26,16 +26,19 @@ struct TotalCountContainerView: View {
                 HStack(alignment: .center) {
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.confirmedText, subtitleText: CoronaStatusType.confirmed.rawValue.capitalized)
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.yellow)
                     
                     Divider()
                     
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.deathText, subtitleText: CoronaStatusType.death.rawValue.capitalized)
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.red)
                     
                     Divider()
                     
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.recoveredText, subtitleText: CoronaStatusType.recovered.rawValue.capitalized)
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.green)
                 }
                 
                 Divider()
@@ -43,12 +46,15 @@ struct TotalCountContainerView: View {
                 HStack(alignment: .center) {
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.sickText, subtitleText: "Sick")
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.orange)
                     Divider()
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.recoveryRateText, subtitleText: "Recovery rate")
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.green)
                     Divider()
                     TotalCountView(totalCountText: totalCountObserved.totalCount!.fataliityRateText, subtitleText: "Fatality rate")
                         .frame(minWidth: 0, maxWidth: .infinity)
+                        .foregroundColor(.red)
                 }
             }
         }
