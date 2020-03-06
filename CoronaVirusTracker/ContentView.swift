@@ -8,46 +8,45 @@
 
 import SwiftUI
 
-struct ContentView: View {
+private struct Tab: View {
+    let imageName: String
+    let text: String
     
+    var body: some View {
+        VStack {
+            Image(systemName: imageName)
+            Text(text)
+        }
+    }
+}
+
+struct ContentView: View {
     var body: some View {
         TabView {
             StatsView()
                 .tabItem {
-                    VStack {
-                        Image(systemName: "chart.bar")
-                        Text("Stats")
-                    }
+                    Tab(imageName: "chart.bar", text: "stats")
             }
             .tag(0)
             
             ContainerMapView()
                 .edgesIgnoringSafeArea(.vertical)
                 .tabItem {
-                    VStack {
-                        Image(systemName: "map")
-                        
-                        Text("Maps")
-                    }
-            }.tag(1)
+                    Tab(imageName: "map", text: "Maps")
+            }
+            .tag(1)
             
             AdviceView()
                 .tabItem {
-                    VStack {
-                        Image(systemName: "tray.full")
-                        Text("Advices")
-                    }
+                    Tab(imageName: "tray.full", text: "Advices")
             }
             .tag(2)
             
             AboutView()
                 .tabItem {
-                    VStack {
-                        Image(systemName: "person")
-                        Text("About")
-                    }
+                    Tab(imageName: "person", text: "About")
             }
-            .tag(2)
+            .tag(3)
         }
         .edgesIgnoringSafeArea(.top)
     }
