@@ -1,0 +1,110 @@
+{
+    "title": "Basic protective measures against the new coronavirus",
+    "subtitle": "Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. COVID-19 is still affecting mostly people in China with some outbreaks in other countries. Most people who become infected experience mild illness and recover, but it can be more severe for others. Take care of your health and protect others by doing the following:",
+    "basics": [
+        {
+        "title": "Wash your hands frequently",
+        "subtitle": "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n\nWhy? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
+        },
+        {
+        "title": "Maintain social distancing",
+        "subtitle": "Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\nWhy? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease."
+        },
+        {
+        "title": "Avoid touching eyes, nose and mouth",
+        "subtitle": "Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
+        },
+        {
+        "title": "Practice respiratory hygiene",
+        "subtitle": "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\nWhy? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
+        },
+        {
+        "title": "If you have fever, cough and difficulty breathing, seek medical care early",
+        "subtitle": "Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.\n\nWhy? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
+        },
+        {
+        "title": "Stay informed and follow advice given by your healthcare provider",
+        "subtitle": "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.\n\nWhy? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+        },
+        {
+        "title": "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading",
+        "subtitle": "Follow the guidance outlined above.\n\nStay at home if you begin to feel unwell, even with mild symptoms such as headache and slight runny nose, until you recover. Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n\nIf you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers. Why? Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also help to prevent possible spread of COVID-19 and other viruses."
+        }   
+    ],
+
+    "topics": [
+        {
+            "title": "Myth busters",
+            "questions": [
+                {
+                "title": "Are hand dryers effective in killing the new coronavirus?",
+                "subtitle": "No. Hand dryers are not effective in killing the 2019-nCoV. To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer."
+                },
+                {
+                "title": "Can an ultraviolet disinfection lamp kill the new coronavirus?",
+                "subtitle": "UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation."
+                },
+                {
+                "title": "How effective are thermal scanners in detecting people infected with the new coronavirus?",
+                "subtitle": "Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus.\n\nHowever, they cannot detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever."
+                },
+                {
+                "title": "Can spraying alcohol or chlorine all over your body kill the new coronavirus?",
+                "subtitle": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations."
+                },
+                {
+                "title": "Is it safe to receive a letter or a package from China?",
+                "subtitle": "Yes, it is safe. People receiving packages from China are not at risk of contracting the new coronavirus. From previous analysis, we know coronaviruses do not survive long on objects, such as letters or packages."
+                },
+                {
+                "title": "Can pets at home spread the new coronavirus (2019-nCoV)?",
+                "subtitle": "At present, there is no evidence that companion animals/pets such as dogs or cats can be infected with the new coronavirus. However, it is always a good idea to wash your hands with soap and water after contact with pets. This protects you against various common bacteria such as E.coli and Salmonella that can pass between pets and humans."
+                },
+                {
+                "title": "Do vaccines against pneumonia protect you against the new coronavirus?",
+                "subtitle": "No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.\n\nThe virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts.\n\nAlthough these vaccines are not effective against 2019-nCoV, vaccination against respiratory illnesses is highly recommended to protect your health."
+                },
+                {
+                "title": "Can regularly rinsing your nose with saline help prevent infection with the new coronavirus?",
+                "subtitle": "No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus.\n\nThere is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections."
+                },
+                {
+                "title": "Can eating garlic help prevent infection with the new coronavirus?",
+                "subtitle": "Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus."
+                },
+                {
+                "title": "Does putting on sesame oil block the new coronavirus from entering the body?",
+                "subtitle": "No. Sesame oil does not kill the new coronavirus. There are some chemical disinfectants that can kill the 2019-nCoV on surfaces. These include bleach/chlorine-based disinfectants, either solvents, 75% ethanol, peracetic acid and chloroform.\n\nHowever, they have little or no impact on the virus if you put them on the skin or under your nose. It can even be dangerous to put these chemicals on your skin."
+                },
+                {
+                "title": "Does the new coronavirus affect older people, or are younger people also susceptible?",
+                "subtitle": "People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus.\n\nWHO advises people of all ages to take steps to protect themselves from the virus, for example by following good hand hygiene and good respiratory hygiene."
+                },
+                {
+                "title": "Are antibiotics effective in preventing and treating the new coronavirus?",
+                "subtitle": "No, antibiotics do not work against viruses, only bacteria.\n\nThe new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment.\n\nHowever, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible."
+                },
+                {
+                "title": "Are there any specific medicines to prevent or treat the new coronavirus?",
+                "subtitle": "To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\n\nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners."
+                }
+            ]
+        },
+        {
+            "title": "When and how to use masks",
+            "questions": [
+                {
+                "title": "When to use a mask",
+                "subtitle": "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.\n\nWear a mask if you are coughing or sneezing.\n\nMasks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.\n\nIf you wear a mask, then you must know how to use it and dispose of it properly."
+                },
+                {
+                "title": "How to put on, use, take off and dispose of a mask",
+                "subtitle": "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.\n\nCover mouth and nose with mask and make sure there are no gaps between your face and the mask.\n\nAvoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.\n\nReplace the mask with a new one as soon as it is damp and do not re-use single-use masks.\n\nTo remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water."
+                }
+
+            ]
+        }
+
+    ]
+    
+}
