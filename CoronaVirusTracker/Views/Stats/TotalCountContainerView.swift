@@ -22,46 +22,53 @@ struct TotalCountContainerView: View {
             } else if totalCountObserved.totalCount != nil {
                 Text("Updated: \(Utils.dateFormatter.string(from: Date()))")
                     .font(.headline)
-                
-                HStack(alignment: .center) {
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.confirmedText, subtitleText: CoronaStatusType.confirmed.rawValue.capitalized)
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.yellow)
-                    
-                    Divider()
-                    
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.deathText, subtitleText: CoronaStatusType.death.rawValue.capitalized)
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.red)
-                    
-                    Divider()
-                    
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.recoveredText, subtitleText: CoronaStatusType.recovered.rawValue.capitalized)
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.green)
-                }
+                DashboardStatsView(totalCount: totalCountObserved.totalCount!)
+            }
+        }
+        .cardContained()
+    }
+}
+
+struct DashboardStatsView: View {
+    
+    let totalCount: CoronaTotalCount
+    
+    var body: some View {
+        Group {
+            HStack(alignment: .center) {
+                TotalCountView(totalCountText: totalCount.confirmedText, subtitleText: CoronaStatusType.confirmed.rawValue.capitalized)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.yellow)
                 
                 Divider()
                 
-                HStack(alignment: .center) {
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.sickText, subtitleText: "Sick")
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.orange)
-                    Divider()
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.recoveryRateText, subtitleText: "Recovery rate")
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.green)
-                    Divider()
-                    TotalCountView(totalCountText: totalCountObserved.totalCount!.fataliityRateText, subtitleText: "Fatality rate")
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .foregroundColor(.red)
-                }
+                TotalCountView(totalCountText: totalCount.deathText, subtitleText: CoronaStatusType.death.rawValue.capitalized)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.red)
+                
+                Divider()
+                
+                TotalCountView(totalCountText: totalCount.recoveredText, subtitleText: CoronaStatusType.recovered.rawValue.capitalized)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.green)
+            }
+            
+            Divider()
+            
+            HStack(alignment: .center) {
+                TotalCountView(totalCountText: totalCount.sickText, subtitleText: "Sick")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.orange)
+                Divider()
+                TotalCountView(totalCountText: totalCount.recoveryRateText, subtitleText: "Recovery rate")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.green)
+                Divider()
+                TotalCountView(totalCountText: totalCount.fataliityRateText, subtitleText: "Fatality rate")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.red)
             }
         }
-        .padding(.horizontal)
-        .padding(.vertical)
-        .background(Color(UIColor.systemBackground))
-        .cornerRadius(8)
-
     }
+    
 }

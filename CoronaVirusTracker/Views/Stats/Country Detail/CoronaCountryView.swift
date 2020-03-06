@@ -19,10 +19,8 @@ struct CoronaCountryView: View {
                 .padding(.horizontal)
             
             CoronaCaseRegionView(cases: coronaCase.cases)
-                .padding(.vertical)
-                .padding(.horizontal)
+                .padding(.all)
         }
-            
         .navigationBarTitle(coronaCase.country)
         .background(Color(UIColor.secondarySystemBackground))
     }
@@ -34,46 +32,11 @@ struct TotalCountCountryContainerView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack(alignment: .center) {
-                TotalCountView(totalCountText: totalCount.confirmedText, subtitleText: CoronaStatusType.confirmed.rawValue.capitalized)
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.yellow)
-                Divider()
-                
-                TotalCountView(totalCountText: totalCount.deathText, subtitleText: CoronaStatusType.death.rawValue.capitalized)
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.red)
-                Divider()
-                
-                TotalCountView(totalCountText: totalCount.recoveredText, subtitleText: CoronaStatusType.recovered.rawValue.capitalized)
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.green)
-            }
-            
-            Divider()
-            
-            HStack(alignment: .center) {
-                TotalCountView(totalCountText: totalCount.sickText, subtitleText: "Sick")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.orange)
-                Divider()
-                TotalCountView(totalCountText: totalCount.recoveryRateText, subtitleText: "Recovery rate")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.green)
-                Divider()
-                TotalCountView(totalCountText: totalCount.fataliityRateText, subtitleText: "Fatality rate")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.red)
-            }
-            
+            DashboardStatsView(totalCount: totalCount)
         }
-        .padding(.horizontal)
-        .padding(.vertical)
-        .background(Color(UIColor.systemBackground))
-        .cornerRadius(8)
+        .cardContained()
     }
 }
-
 
 struct CoronaCaseRegionView: View {
     
@@ -97,11 +60,7 @@ struct CoronaCaseRegionView: View {
             Divider()
             ForEach(cases) { CoronaCaseRegionDetailView(coronaCase: $0) }
         }
-            
-        .padding(.horizontal)
-        .padding(.vertical)
-        .background(Color(UIColor.systemBackground))
-        .cornerRadius(8)
+        .cardContained()
     }
 }
 
