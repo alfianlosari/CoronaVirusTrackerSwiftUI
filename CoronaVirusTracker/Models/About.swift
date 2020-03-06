@@ -10,7 +10,6 @@ import Foundation
 
 struct About {
     
-    
     let title: String
     let copyrights: [Copyright]
     

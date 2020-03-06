@@ -19,9 +19,7 @@ struct AboutView: View {
                 VStack(alignment: .leading, spacing: 32) {
                   Text(about.title)
                         .font(.body)
-                        .padding(.all)
-                        .background(Color(UIColor.systemBackground))
-                        .cornerRadius(8)
+                        .cardContained()
                     
                     ForEach(about.copyrights) { copy in
                         VStack(alignment: .leading, spacing: 8) {
@@ -29,18 +27,14 @@ struct AboutView: View {
                                 .font(.title)
                             Text(copy.license)
                                 .font(.body)
-                                .padding(.all)
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(8)
+                            .cardContained()
                         }
                     }
                 }
                 .padding(.all)
-
             }
             .navigationBarTitle("About", displayMode: .inline)
             .background(Color(UIColor.secondarySystemBackground))
         }
     }
-    
 }

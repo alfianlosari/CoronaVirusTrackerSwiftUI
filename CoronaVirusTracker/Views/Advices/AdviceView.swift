@@ -26,12 +26,8 @@ struct AdviceView: View {
                                         Spacer()
                                         Image(systemName: "chevron.right.circle")
                                     }
-                                        
                                     .font(.headline)
-                                    .padding(.horizontal)
-                                    .padding(.vertical)
-                                    .background(Color(UIColor.systemBackground))
-                                    .cornerRadius(8)
+                                    .cardContained()
                                 }
                             }
                         }
@@ -40,9 +36,7 @@ struct AdviceView: View {
                                 .font(.title)
                             Text(adviceObservable.advice!.subtitle)
                                 .font(.body)
-                                .padding(.all)
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(8)
+                                .cardContained()
                         }
                         
                         ForEach(adviceObservable.advice!.basics) { basic in
@@ -51,9 +45,7 @@ struct AdviceView: View {
                                     .font(.headline)
                                 Text(basic.subtitle)
                                     .font(.body)
-                                    .padding(.all)
-                                    .background(Color(UIColor.systemBackground))
-                                    .cornerRadius(8)
+                                    .cardContained()
                             }
                         }
                     }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B0AD1AD2413039B0099491A /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1AC2413039B0099491A /* About.swift */; };
+		8B0AD1B0241305780099491A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1AF241305780099491A /* View+Extension.swift */; };
 		8B2A7D0F24115D75007090C7 /* ContainerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D0E24115D75007090C7 /* ContainerMapView.swift */; };
 		8B2A7D162411D9D2007090C7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A7D152411D9D2007090C7 /* NotificationCenter.framework */; };
 		8B2A7D192411D9D2007090C7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D182411D9D2007090C7 /* TodayViewController.swift */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		8B0AD1AC2413039B0099491A /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		8B0AD1AF241305780099491A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		8B2A7D0E24115D75007090C7 /* ContainerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMapView.swift; sourceTree = "<group>"; };
 		8B2A7D142411D9D2007090C7 /* CoronaTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoronaTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A7D152411D9D2007090C7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,14 @@
 			children = (
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B0AD1AE2413056C0099491A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AD1AF241305780099491A /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8B2A7D172411D9D2007090C7 /* CoronaTodayExtension */ = {
@@ -263,6 +273,7 @@
 				8B41D84A240FE936006257E5 /* AppDelegate.swift */,
 				8B41D84C240FE936006257E5 /* SceneDelegate.swift */,
 				8B41D84E240FE936006257E5 /* ContentView.swift */,
+				8B0AD1AE2413056C0099491A /* Extension */,
 				8B2A7D402411E80E007090C7 /* Utils */,
 				8B2A7D3C2411E7A3007090C7 /* Models */,
 				8B2A7D392411E783007090C7 /* Bindings */,
@@ -425,6 +436,7 @@
 				8BDABA6F2410192F00216285 /* CoronaCaseObservedObject.swift in Sources */,
 				8B0AD1AD2413039B0099491A /* About.swift in Sources */,
 				8B2A7D2A2411E399007090C7 /* ProgressView.swift in Sources */,
+				8B0AD1B0241305780099491A /* View+Extension.swift in Sources */,
 				8B5926222411126D008626AE /* AdviceView.swift in Sources */,
 				8B2A7D422411E815007090C7 /* Utils.swift in Sources */,
 				8B41D84F240FE936006257E5 /* ContentView.swift in Sources */,

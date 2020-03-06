@@ -22,9 +22,7 @@ struct TopicView: View {
                             .font(.headline)
                         Text(question.subtitle)
                             .font(.body)
-                            .padding(.all)
-                            .background(Color(UIColor.systemBackground))
-                            .cornerRadius(8)
+                        .cardContained()
                     }
                 }
             }
