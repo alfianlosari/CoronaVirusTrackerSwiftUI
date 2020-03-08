@@ -12,15 +12,10 @@ import UIKit
 struct CoronaCaseTableView: View {
     
     @EnvironmentObject var caseObservable: CoronaCaseObservedObject
-    @State private var searchTerm : String = ""
+    @Binding var searchTerm : String
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            
-            SearchBar(text: $searchTerm, placeholder: "Search for a country")
-                         .padding(.top)
-                         .padding(.horizontal)
-            
             HStack() {
                 Text("Country")
                     .frame(maxWidth: .infinity, alignment: .leading)
