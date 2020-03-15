@@ -41,6 +41,7 @@
 		8B5926222411126D008626AE /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5926212411126D008626AE /* AdviceView.swift */; };
 		8BDABA6F2410192F00216285 /* CoronaCaseObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDABA6E2410192F00216285 /* CoronaCaseObservedObject.swift */; };
 		8BF4BE3E2411EDBD00893E64 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4BE3D2411EDBD00893E64 /* AboutView.swift */; };
+		ACCC0CCE241362C200E0E0DC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC0CCD241362C200E0E0DC /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		8B5926212411126D008626AE /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
 		8BDABA6E2410192F00216285 /* CoronaCaseObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaCaseObservedObject.swift; sourceTree = "<group>"; };
 		8BF4BE3D2411EDBD00893E64 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		ACCC0CCD241362C200E0E0DC /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		8B2A7D262411E376007090C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC0CCC2413628C00E0E0DC /* Search Bar */,
 				8BF4BE3C2411EBFA00893E64 /* About */,
 				8B2A7D3A2411E793007090C7 /* Maps */,
 				8B2A7D2E2411E441007090C7 /* Stats */,
@@ -307,6 +310,14 @@
 			path = About;
 			sourceTree = "<group>";
 		};
+		ACCC0CCC2413628C00E0E0DC /* Search Bar */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC0CCD241362C200E0E0DC /* SearchBar.swift */,
+			);
+			path = "Search Bar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -426,6 +437,7 @@
 				8B59261A2410800A008626AE /* CoronaCountryView.swift in Sources */,
 				8B41D84D240FE936006257E5 /* SceneDelegate.swift in Sources */,
 				8BF4BE3E2411EDBD00893E64 /* AboutView.swift in Sources */,
+				ACCC0CCE241362C200E0E0DC /* SearchBar.swift in Sources */,
 				8B2A7D302411E44F007090C7 /* TotalCountContainerView.swift in Sources */,
 				8B2A7D0F24115D75007090C7 /* ContainerMapView.swift in Sources */,
 				8B59261E2411125A008626AE /* WhoAdviceObservedObject.swift in Sources */,

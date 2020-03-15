@@ -12,10 +12,10 @@ import UIKit
 struct CoronaCaseTableView: View {
     
     @EnvironmentObject var caseObservable: CoronaCaseObservedObject
-    
+    @Binding var searchTerm : String
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            
             HStack() {
                 Text("Country")
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -38,7 +38,9 @@ struct CoronaCaseTableView: View {
             } else if caseObservable.error != nil {
                 Text("Error")
             } else if caseObservable.cases != nil {
-                ForEach(caseObservable.cases!) { coronaCase in
+                ForEach(caseObservable.cases!.filter {
+                    self.searchTerm.isEmpty ? true : $0.country.localizedStandardContains(self.searchTerm)
+                }) { coronaCase in
                     if coronaCase.cases.count > 1 {
                         NavigationLink(destination: CoronaCountryView(coronaCase: coronaCase)) {
                             CoronaCaseRowView(title: coronaCase.country, totalCount: coronaCase.coronaTotalCount)
