@@ -17,7 +17,7 @@ struct TotalCountView: View {
     var body: some View {
         VStack {
             Text(totalCountText)
-                .font(.title)
+                .font(.system(size: 24))
             Text(subtitleText)
                 .font(.subheadline)
         }

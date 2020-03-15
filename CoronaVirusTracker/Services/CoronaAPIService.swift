@@ -42,6 +42,7 @@ class CoronaArcGISService: CoronaRepositoryService {
             return
         }
         
+        
         executeDataTaskAndDecode(with: url) { (result: Result<CoronaTotalCountResponse, CoronaAPIError>) in
             switch result {
             case .success(let response):
@@ -99,6 +100,8 @@ class CoronaArcGISService: CoronaRepositoryService {
             completion(.failure(.invalidURL))
             return
         }
+        print(url.absoluteString)
+
         
         executeDataTaskAndDecode(with: url) { (result: Result<CoronaCaseResponse, CoronaAPIError>) in
             switch result {
