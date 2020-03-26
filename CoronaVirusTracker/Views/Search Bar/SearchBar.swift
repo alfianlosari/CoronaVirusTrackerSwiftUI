@@ -37,7 +37,6 @@ struct SearchBar : UIViewRepresentable {
             searchBar.resignFirstResponder()
         }
         
-        
     }
     
     func makeCoordinator() -> SearchBar.Cordinator {
