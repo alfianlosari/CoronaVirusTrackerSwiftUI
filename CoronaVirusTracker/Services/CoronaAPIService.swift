@@ -96,7 +96,7 @@ class CoronaArcGISService: CoronaRepositoryService {
     }
     
     func getCases(completion: @escaping (Result<[CoronaCase], CoronaAPIError>) -> ()) {
-        guard let url = generateURL(with: generateURLQueryItems(where: CoronaStatusType.caseWhereQuery, orderByFields: CoronaStatusType.caseOrderByFieldsQuery, resultOffset: 0, resultRecordCount: 250, cacheHint: true)) else {
+        guard let url = generateURL(with: generateURLQueryItems(where: CoronaStatusType.caseWhereQuery, orderByFields: CoronaStatusType.caseOrderByFieldsQuery, resultOffset: 0, resultRecordCount: 500, cacheHint: true)) else {
             completion(.failure(.invalidURL))
             return
         }

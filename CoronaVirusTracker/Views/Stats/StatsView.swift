@@ -20,11 +20,17 @@ struct StatsView: View {
                 TotalCountContainerView()
                     .padding(.top)
                     .padding(.horizontal)
+                    .onTapGesture {
+                        UIApplication.shared.endEditing()
+                    }
                 SearchBar(text: $searchTerm, keyboardHeight: $searchBarHeight, placeholder: "Search for a country")
                     .padding(.horizontal).padding(.top)
                 CoronaCaseTableView(searchTerm: $searchTerm)
                     .padding(.horizontal)
                     .padding(.bottom, searchBarHeight)
+                    .onTapGesture {
+                        UIApplication.shared.endEditing()
+                    }
             }
             .background(Color(UIColor.secondarySystemBackground))
             .navigationBarTitle("Corona Virus Tracker", displayMode: .inline)

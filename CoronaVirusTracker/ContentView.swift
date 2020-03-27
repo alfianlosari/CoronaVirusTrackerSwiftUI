@@ -57,3 +57,9 @@ struct ContentView_Previews: PreviewProvider {
             .environment(\.colorScheme, .dark)
     }
 }
+
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
