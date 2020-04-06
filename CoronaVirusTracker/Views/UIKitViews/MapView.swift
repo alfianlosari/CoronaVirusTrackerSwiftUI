@@ -30,7 +30,7 @@ struct MapView: UIViewRepresentable {
         guard let countryCases = cases else {
             return
         }
-        let cases = countryCases.map { $0.cases }.flatMap { $0 }.map { CoronaCaseAnnotation(title: "\($0.state ?? $0.country) C\($0.confirmedText) D\($0.deathText) R \($0.recoveredText)", coordinate: CLLocationCoordinate2D(latitude: $0.latitude, longitude: $0.longitude))}
+        let cases = countryCases.map { $0.cases }.flatMap { $0 }.map { CoronaCaseAnnotation(title: "\($0.state ?? $0.country) C\($0.confirmedText) D\($0.deathText) R \($0.recoveredText)", coordinate: CLLocationCoordinate2D(latitude: $0.latitude ?? 0, longitude: $0.longitude ?? 0))}
         
         uiView.annotations.forEach { uiView.removeAnnotation($0) }
         uiView.addAnnotations(cases)

@@ -170,10 +170,15 @@ class CoronaArcGISService: CoronaRepositoryService {
                 return
             }
             
+            let json = try! JSONSerialization.jsonObject(with: data, options: [])
+            print(json)
+            
             do {
+                
                 let model = try self.jsonDecoder.decode(D.self, from: data)
                 completion(.success(model))
-            } catch {
+            } catch let error as NSError{
+                print(error.localizedDescription)
                 completion(.failure(.invalidSerialization))
             }
         }.resume()

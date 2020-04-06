@@ -103,8 +103,8 @@ struct CoronaCase: Decodable {
     let state: String?
     let country: String
     let lastUpdatedAt: Date
-    let latitude: Double
-    let longitude: Double
+    let latitude: Double?
+    let longitude: Double?
     let confirmed: Int
     let deaths: Int
     let recovered: Int
