@@ -60,13 +60,15 @@ struct DashboardStatsView: View {
                     .frame(minWidth: 0, maxWidth: .infinity)
                     .foregroundColor(.orange)
                 Divider()
-                TotalCountView(totalCountText: totalCount.recoveryRateText, subtitleText: "Recovery rate")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .foregroundColor(.green)
-                Divider()
                 TotalCountView(totalCountText: totalCount.fataliityRateText, subtitleText: "Fatality rate")
                     .frame(minWidth: 0, maxWidth: .infinity)
                     .foregroundColor(.red)
+                
+                Divider()
+                TotalCountView(totalCountText: totalCount.recoveryRateText, subtitleText: "Recovery rate")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .foregroundColor(.green)
+                
             }
         }
     }
