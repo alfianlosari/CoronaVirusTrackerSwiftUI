@@ -26,6 +26,7 @@ struct Provider: TimelineProvider {
                     completion(entry)
                     
                 case .failure(let error):
+                    print(error.localizedDescription)
                     let entry = CaseEntry(date: Date(), totalCount: nil)
                     completion(entry)
                 }

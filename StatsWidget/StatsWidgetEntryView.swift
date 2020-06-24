@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 let confirmedColor = Color(red: 71/255, green: 97/255, blue: 244/255)
 let deathColor = Color(red: 244/255, green: 114/255, blue: 114/255)
