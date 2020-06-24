@@ -11,11 +11,6 @@
 		8B0AD1B0241305780099491A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1AF241305780099491A /* View+Extension.swift */; };
 		8B0AD1B2241307B70099491A /* SectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1B1241307B70099491A /* SectionCardView.swift */; };
 		8B2A7D0F24115D75007090C7 /* ContainerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D0E24115D75007090C7 /* ContainerMapView.swift */; };
-		8B2A7D162411D9D2007090C7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A7D152411D9D2007090C7 /* NotificationCenter.framework */; };
-		8B2A7D192411D9D2007090C7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D182411D9D2007090C7 /* TodayViewController.swift */; };
-		8B2A7D1C2411D9D2007090C7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A7D1A2411D9D2007090C7 /* MainInterface.storyboard */; };
-		8B2A7D202411D9D2007090C7 /* CoronaTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B2A7D142411D9D2007090C7 /* CoronaTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8B2A7D252411DC64007090C7 /* CoronaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D85E240FEC04006257E5 /* CoronaAPIService.swift */; };
 		8B2A7D282411E386007090C7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D272411E386007090C7 /* StatsView.swift */; };
 		8B2A7D2A2411E399007090C7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D292411E399007090C7 /* ProgressView.swift */; };
 		8B2A7D2D2411E3B7007090C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D2C2411E3B7007090C7 /* MapView.swift */; };
@@ -23,10 +18,9 @@
 		8B2A7D322411E49F007090C7 /* TotalCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D312411E49F007090C7 /* TotalCountView.swift */; };
 		8B2A7D362411E565007090C7 /* CoronaCaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D352411E565007090C7 /* CoronaCaseTableView.swift */; };
 		8B2A7D3E2411E7DF007090C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D3D2411E7DF007090C7 /* Model.swift */; };
-		8B2A7D3F2411E804007090C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D3D2411E7DF007090C7 /* Model.swift */; };
 		8B2A7D422411E815007090C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
-		8B2A7D432411E820007090C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
 		8B2A7D452411E978007090C7 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D442411E978007090C7 /* TopicView.swift */; };
+		8B356A5F24A2F97400DE8424 /* StatsWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B356A5D24A2F96200DE8424 /* StatsWidgetEntryView.swift */; };
 		8B41D84B240FE936006257E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84A240FE936006257E5 /* AppDelegate.swift */; };
 		8B41D84D240FE936006257E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84C240FE936006257E5 /* SceneDelegate.swift */; };
 		8B41D84F240FE936006257E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84E240FE936006257E5 /* ContentView.swift */; };
@@ -39,18 +33,34 @@
 		8B59261E2411125A008626AE /* WhoAdviceObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59261B2411125A008626AE /* WhoAdviceObservedObject.swift */; };
 		8B59261F2411125A008626AE /* who_corona_advice.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B59261C2411125A008626AE /* who_corona_advice.json */; };
 		8B5926222411126D008626AE /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5926212411126D008626AE /* AdviceView.swift */; };
+		8B70CEEE24A2601E008D28DA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D3D2411E7DF007090C7 /* Model.swift */; };
+		8B70CEEF24A2602C008D28DA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
+		8B70CEF724A28476008D28DA /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF324A28476008D28DA /* PieChartRow.swift */; };
+		8B70CEF824A28476008D28DA /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF324A28476008D28DA /* PieChartRow.swift */; };
+		8B70CEF924A28476008D28DA /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF424A28476008D28DA /* PieChartCell.swift */; };
+		8B70CEFA24A28476008D28DA /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF424A28476008D28DA /* PieChartCell.swift */; };
+		8B70CEFB24A28476008D28DA /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF524A28476008D28DA /* PieChartView.swift */; };
+		8B70CEFC24A28476008D28DA /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF524A28476008D28DA /* PieChartView.swift */; };
+		8B70CEFD24A28476008D28DA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF624A28476008D28DA /* Helpers.swift */; };
+		8B70CEFE24A28476008D28DA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF624A28476008D28DA /* Helpers.swift */; };
+		8BAAAF4B24A254720062300D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAAAF4A24A254720062300D /* WidgetKit.framework */; };
+		8BAAAF4D24A254720062300D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAAAF4C24A254720062300D /* SwiftUI.framework */; };
+		8BAAAF5024A254720062300D /* StatsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAAF4F24A254720062300D /* StatsWidget.swift */; };
+		8BAAAF5224A254730062300D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAAF5124A254730062300D /* Assets.xcassets */; };
+		8BAAAF5624A254730062300D /* StatsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BAAAF4924A254720062300D /* StatsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8BDABA6F2410192F00216285 /* CoronaCaseObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDABA6E2410192F00216285 /* CoronaCaseObservedObject.swift */; };
+		8BEE7DA024A30A1D00E258D1 /* CoronaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D85E240FEC04006257E5 /* CoronaAPIService.swift */; };
 		8BF4BE3E2411EDBD00893E64 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4BE3D2411EDBD00893E64 /* AboutView.swift */; };
 		ACCC0CCE241362C200E0E0DC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC0CCD241362C200E0E0DC /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B2A7D1E2411D9D2007090C7 /* PBXContainerItemProxy */ = {
+		8BAAAF5424A254730062300D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8B41D83F240FE936006257E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B2A7D132411D9D2007090C7;
-			remoteInfo = CoronaTodayExtension;
+			remoteGlobalIDString = 8BAAAF4824A254720062300D;
+			remoteInfo = StatsWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8B2A7D202411D9D2007090C7 /* CoronaTodayExtension.appex in Embed App Extensions */,
+				8BAAAF5624A254730062300D /* StatsWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,11 +83,7 @@
 		8B0AD1AF241305780099491A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		8B0AD1B1241307B70099491A /* SectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCardView.swift; sourceTree = "<group>"; };
 		8B2A7D0E24115D75007090C7 /* ContainerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMapView.swift; sourceTree = "<group>"; };
-		8B2A7D142411D9D2007090C7 /* CoronaTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoronaTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A7D152411D9D2007090C7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		8B2A7D182411D9D2007090C7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		8B2A7D1B2411D9D2007090C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		8B2A7D1D2411D9D2007090C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2A7D272411E386007090C7 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		8B2A7D292411E399007090C7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		8B2A7D2C2411E3B7007090C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 		8B2A7D3D2411E7DF007090C7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8B2A7D412411E815007090C7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		8B2A7D442411E978007090C7 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		8B356A5D24A2F96200DE8424 /* StatsWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsWidgetEntryView.swift; sourceTree = "<group>"; };
 		8B41D847240FE936006257E5 /* CoronaVirusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B41D84A240FE936006257E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B41D84C240FE936006257E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,24 +108,35 @@
 		8B59261B2411125A008626AE /* WhoAdviceObservedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoAdviceObservedObject.swift; sourceTree = "<group>"; };
 		8B59261C2411125A008626AE /* who_corona_advice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = who_corona_advice.json; sourceTree = "<group>"; };
 		8B5926212411126D008626AE /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
+		8B70CEF324A28476008D28DA /* PieChartRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartRow.swift; sourceTree = "<group>"; };
+		8B70CEF424A28476008D28DA /* PieChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
+		8B70CEF524A28476008D28DA /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		8B70CEF624A28476008D28DA /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8BAAAF4924A254720062300D /* StatsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAAAF4A24A254720062300D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8BAAAF4C24A254720062300D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8BAAAF4F24A254720062300D /* StatsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsWidget.swift; sourceTree = "<group>"; };
+		8BAAAF5124A254730062300D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BAAAF5324A254730062300D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDABA6E2410192F00216285 /* CoronaCaseObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaCaseObservedObject.swift; sourceTree = "<group>"; };
 		8BF4BE3D2411EDBD00893E64 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		ACCC0CCD241362C200E0E0DC /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B2A7D112411D9D2007090C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B2A7D162411D9D2007090C7 /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B41D844240FE936006257E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAAF4624A254720062300D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAAF4D24A254720062300D /* SwiftUI.framework in Frameworks */,
+				8BAAAF4B24A254720062300D /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,15 +147,10 @@
 			isa = PBXGroup;
 			children = (
 				8B2A7D152411D9D2007090C7 /* NotificationCenter.framework */,
+				8BAAAF4A24A254720062300D /* WidgetKit.framework */,
+				8BAAAF4C24A254720062300D /* SwiftUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5190E63E92943E9E75F3E1A1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		8B0AD1AE2413056C0099491A /* Extension */ = {
@@ -148,19 +161,10 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		8B2A7D172411D9D2007090C7 /* CoronaTodayExtension */ = {
-			isa = PBXGroup;
-			children = (
-				8B2A7D182411D9D2007090C7 /* TodayViewController.swift */,
-				8B2A7D1A2411D9D2007090C7 /* MainInterface.storyboard */,
-				8B2A7D1D2411D9D2007090C7 /* Info.plist */,
-			);
-			path = CoronaTodayExtension;
-			sourceTree = "<group>";
-		};
 		8B2A7D262411E376007090C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8B70CEFF24A2848C008D28DA /* SwiftUIChart */,
 				ACCC0CCC2413628C00E0E0DC /* Search Bar */,
 				8BF4BE3C2411EBFA00893E64 /* About */,
 				8B2A7D3A2411E793007090C7 /* Maps */,
@@ -257,9 +261,8 @@
 			isa = PBXGroup;
 			children = (
 				8B41D849240FE936006257E5 /* CoronaVirusTracker */,
-				8B2A7D172411D9D2007090C7 /* CoronaTodayExtension */,
+				8BAAAF4E24A254720062300D /* StatsWidget */,
 				8B41D848240FE936006257E5 /* Products */,
-				5190E63E92943E9E75F3E1A1 /* Pods */,
 				337021FD546979672A2FEEC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -268,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				8B41D847240FE936006257E5 /* CoronaVirusTracker.app */,
-				8B2A7D142411D9D2007090C7 /* CoronaTodayExtension.appex */,
+				8BAAAF4924A254720062300D /* StatsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,6 +305,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8B70CEFF24A2848C008D28DA /* SwiftUIChart */ = {
+			isa = PBXGroup;
+			children = (
+				8B70CEF624A28476008D28DA /* Helpers.swift */,
+				8B70CEF424A28476008D28DA /* PieChartCell.swift */,
+				8B70CEF324A28476008D28DA /* PieChartRow.swift */,
+				8B70CEF524A28476008D28DA /* PieChartView.swift */,
+			);
+			path = SwiftUIChart;
+			sourceTree = "<group>";
+		};
+		8BAAAF4E24A254720062300D /* StatsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAAF4F24A254720062300D /* StatsWidget.swift */,
+				8B356A5D24A2F96200DE8424 /* StatsWidgetEntryView.swift */,
+				8BAAAF5124A254730062300D /* Assets.xcassets */,
+				8BAAAF5324A254730062300D /* Info.plist */,
+			);
+			path = StatsWidget;
+			sourceTree = "<group>";
+		};
 		8BF4BE3C2411EBFA00893E64 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,23 +346,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B2A7D132411D9D2007090C7 /* CoronaTodayExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B2A7D212411D9D2007090C7 /* Build configuration list for PBXNativeTarget "CoronaTodayExtension" */;
-			buildPhases = (
-				8B2A7D102411D9D2007090C7 /* Sources */,
-				8B2A7D112411D9D2007090C7 /* Frameworks */,
-				8B2A7D122411D9D2007090C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CoronaTodayExtension;
-			productName = CoronaTodayExtension;
-			productReference = 8B2A7D142411D9D2007090C7 /* CoronaTodayExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		8B41D846240FE936006257E5 /* CoronaVirusTracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B41D85B240FE937006257E5 /* Build configuration list for PBXNativeTarget "CoronaVirusTracker" */;
@@ -350,12 +358,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B2A7D1F2411D9D2007090C7 /* PBXTargetDependency */,
+				8BAAAF5524A254730062300D /* PBXTargetDependency */,
 			);
 			name = CoronaVirusTracker;
 			productName = CoronaVirusTracker;
 			productReference = 8B41D847240FE936006257E5 /* CoronaVirusTracker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8BAAAF4824A254720062300D /* StatsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAAAF5724A254730062300D /* Build configuration list for PBXNativeTarget "StatsWidgetExtension" */;
+			buildPhases = (
+				8BAAAF4524A254720062300D /* Sources */,
+				8BAAAF4624A254720062300D /* Frameworks */,
+				8BAAAF4724A254720062300D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsWidgetExtension;
+			productName = StatsWidgetExtension;
+			productReference = 8BAAAF4924A254720062300D /* StatsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -363,15 +388,15 @@
 		8B41D83F240FE936006257E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Alfian Losari";
 				TargetAttributes = {
-					8B2A7D132411D9D2007090C7 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
 					8B41D846240FE936006257E5 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					8BAAAF4824A254720062300D = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
@@ -389,20 +414,12 @@
 			projectRoot = "";
 			targets = (
 				8B41D846240FE936006257E5 /* CoronaVirusTracker */,
-				8B2A7D132411D9D2007090C7 /* CoronaTodayExtension */,
+				8BAAAF4824A254720062300D /* StatsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B2A7D122411D9D2007090C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B2A7D1C2411D9D2007090C7 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B41D845240FE936006257E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,36 +431,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8B2A7D102411D9D2007090C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		8BAAAF4724A254720062300D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2A7D3F2411E804007090C7 /* Model.swift in Sources */,
-				8B2A7D252411DC64007090C7 /* CoronaAPIService.swift in Sources */,
-				8B2A7D192411D9D2007090C7 /* TodayViewController.swift in Sources */,
-				8B2A7D432411E820007090C7 /* Utils.swift in Sources */,
+				8BAAAF5224A254730062300D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		8B41D843240FE936006257E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B70CEFB24A28476008D28DA /* PieChartView.swift in Sources */,
 				8B2A7D362411E565007090C7 /* CoronaCaseTableView.swift in Sources */,
+				8B70CEF724A28476008D28DA /* PieChartRow.swift in Sources */,
 				8B41D84B240FE936006257E5 /* AppDelegate.swift in Sources */,
 				8B59261A2410800A008626AE /* CoronaCountryView.swift in Sources */,
 				8B41D84D240FE936006257E5 /* SceneDelegate.swift in Sources */,
 				8BF4BE3E2411EDBD00893E64 /* AboutView.swift in Sources */,
 				ACCC0CCE241362C200E0E0DC /* SearchBar.swift in Sources */,
+				8B70CEF924A28476008D28DA /* PieChartCell.swift in Sources */,
 				8B2A7D302411E44F007090C7 /* TotalCountContainerView.swift in Sources */,
 				8B2A7D0F24115D75007090C7 /* ContainerMapView.swift in Sources */,
 				8B59261E2411125A008626AE /* WhoAdviceObservedObject.swift in Sources */,
 				8B2A7D322411E49F007090C7 /* TotalCountView.swift in Sources */,
 				8B2A7D3E2411E7DF007090C7 /* Model.swift in Sources */,
 				8B2A7D452411E978007090C7 /* TopicView.swift in Sources */,
+				8B70CEFD24A28476008D28DA /* Helpers.swift in Sources */,
 				8B2A7D2D2411E3B7007090C7 /* MapView.swift in Sources */,
 				8B41D86124100394006257E5 /* CoronaTotalCountObservedObject.swift in Sources */,
 				8B41D85F240FEC04006257E5 /* CoronaAPIService.swift in Sources */,
@@ -459,25 +477,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BAAAF4524A254720062300D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B70CEFC24A28476008D28DA /* PieChartView.swift in Sources */,
+				8BEE7DA024A30A1D00E258D1 /* CoronaAPIService.swift in Sources */,
+				8B70CEFE24A28476008D28DA /* Helpers.swift in Sources */,
+				8B70CEFA24A28476008D28DA /* PieChartCell.swift in Sources */,
+				8B70CEF824A28476008D28DA /* PieChartRow.swift in Sources */,
+				8BAAAF5024A254720062300D /* StatsWidget.swift in Sources */,
+				8B356A5F24A2F97400DE8424 /* StatsWidgetEntryView.swift in Sources */,
+				8B70CEEE24A2601E008D28DA /* Model.swift in Sources */,
+				8B70CEEF24A2602C008D28DA /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B2A7D1F2411D9D2007090C7 /* PBXTargetDependency */ = {
+		8BAAAF5524A254730062300D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B2A7D132411D9D2007090C7 /* CoronaTodayExtension */;
-			targetProxy = 8B2A7D1E2411D9D2007090C7 /* PBXContainerItemProxy */;
+			target = 8BAAAF4824A254720062300D /* StatsWidgetExtension */;
+			targetProxy = 8BAAAF5424A254730062300D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B2A7D1A2411D9D2007090C7 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B2A7D1B2411D9D2007090C7 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 		8B41D855240FE937006257E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -489,44 +515,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8B2A7D222411D9D2007090C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C2XD9H2JS;
-				INFOPLIST_FILE = CoronaTodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.CoronaTodayExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8B2A7D232411D9D2007090C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C2XD9H2JS;
-				INFOPLIST_FILE = CoronaTodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.CoronaTodayExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		8B41D859240FE937006257E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,18 +671,55 @@
 			};
 			name = Release;
 		};
+		8BAAAF5824A254730062300D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				INFOPLIST_FILE = StatsWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.StatsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BAAAF5924A254730062300D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				INFOPLIST_FILE = StatsWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.StatsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B2A7D212411D9D2007090C7 /* Build configuration list for PBXNativeTarget "CoronaTodayExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B2A7D222411D9D2007090C7 /* Debug */,
-				8B2A7D232411D9D2007090C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8B41D842240FE936006257E5 /* Build configuration list for PBXProject "CoronaVirusTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -709,6 +734,15 @@
 			buildConfigurations = (
 				8B41D85C240FE937006257E5 /* Debug */,
 				8B41D85D240FE937006257E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAAAF5724A254730062300D /* Build configuration list for PBXNativeTarget "StatsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAAF5824A254730062300D /* Debug */,
+				8BAAAF5924A254730062300D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

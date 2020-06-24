@@ -174,7 +174,6 @@ class CoronaArcGISService: CoronaRepositoryService {
             print(json)
             
             do {
-                
                 let model = try self.jsonDecoder.decode(D.self, from: data)
                 completion(.success(model))
             } catch let error as NSError{
