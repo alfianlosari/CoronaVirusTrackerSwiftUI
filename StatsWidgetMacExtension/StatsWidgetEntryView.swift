@@ -18,9 +18,7 @@ let sickColor = Color(red: 253/255, green: 131/255, blue: 68/255)
 struct StatsWidgetEntryView : View {
     var entry: Provider.Entry
     @Environment(\.widgetFamily) var family
-    
-    
-
+        
     @ViewBuilder
     var body: some View {
         switch family {
@@ -33,9 +31,9 @@ struct StatsWidgetEntryView : View {
         case .systemLarge:
             VStack(spacing: 0) {
                 CasePieRow(totalCount: entry.totalCount)
-                CaseStatGrid(totalCount: entry.totalCount, verticalPadding: 26)
+                CaseStatGrid(totalCount: entry.totalCount, verticalPadding: 20)
             }
-            .background(Color(UIColor.secondarySystemBackground))
+            .background(Color(NSColor.controlBackgroundColor))
         default:
             CaseStatGrid(totalCount: entry.totalCount, verticalPadding: 24)
         }
@@ -139,3 +137,4 @@ struct StatsWidgetEntryView_Previews: PreviewProvider {
         
     }
 }
+

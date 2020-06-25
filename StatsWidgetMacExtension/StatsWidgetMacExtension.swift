@@ -1,16 +1,18 @@
 //
-//  StatsWidget.swift
-//  StatsWidget
+//  StatsWidgetMacExtension.swift
+//  StatsWidgetMacExtension
 //
-//  Created by Alfian Losari on 23/06/20.
+//  Created by Alfian Losari on 25/06/20.
 //  Copyright © 2020 Alfian Losari. All rights reserved.
 //
 
+import WidgetKit
+import SwiftUI
 
 @main
-struct StatsWidget: Widget {
-    private let kind: String = "StatsWidget"
-    
+struct StatsWidgetMacExtension: Widget {
+    private let kind: String = "StatsWidgetMacExtension"
+
     public var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider(), placeholder: PlaceholderView()) { entry in
             StatsWidgetEntryView(entry: entry)
@@ -18,11 +20,5 @@ struct StatsWidget: Widget {
         .supportedFamilies([.systemMedium, .systemSmall, .systemLarge])
         .configurationDisplayName("Latest cases statistics")
         .description("COVID-19 Stats from WHO")
-    }
-}
-
-struct StatsWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

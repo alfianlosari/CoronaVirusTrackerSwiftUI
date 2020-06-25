@@ -21,6 +21,34 @@
 		8B2A7D422411E815007090C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
 		8B2A7D452411E978007090C7 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D442411E978007090C7 /* TopicView.swift */; };
 		8B356A5F24A2F97400DE8424 /* StatsWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B356A5D24A2F96200DE8424 /* StatsWidgetEntryView.swift */; };
+		8B37310024A4BD1D00E82FB4 /* CoronaVirusTrackerMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3730FF24A4BD1D00E82FB4 /* CoronaVirusTrackerMacApp.swift */; };
+		8B37310224A4BD1D00E82FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37310124A4BD1D00E82FB4 /* ContentView.swift */; };
+		8B37310424A4BD1E00E82FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37310324A4BD1E00E82FB4 /* Assets.xcassets */; };
+		8B37310724A4BD1E00E82FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37310624A4BD1E00E82FB4 /* Preview Assets.xcassets */; };
+		8B37311224A4BDBD00E82FB4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAAAF4A24A254720062300D /* WidgetKit.framework */; };
+		8B37311324A4BDBD00E82FB4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAAAF4C24A254720062300D /* SwiftUI.framework */; };
+		8B37311624A4BDBD00E82FB4 /* StatsWidgetMacExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37311524A4BDBD00E82FB4 /* StatsWidgetMacExtension.swift */; };
+		8B37311824A4BDBD00E82FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37311724A4BDBD00E82FB4 /* Assets.xcassets */; };
+		8B37311D24A4BDBD00E82FB4 /* StatsWidgetMacExtensionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B37311124A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B37312524A4BE4200E82FB4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37312424A4BE4200E82FB4 /* Provider.swift */; };
+		8B37312624A4BE4200E82FB4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37312424A4BE4200E82FB4 /* Provider.swift */; };
+		8B37312724A4BE6F00E82FB4 /* CoronaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D85E240FEC04006257E5 /* CoronaAPIService.swift */; };
+		8B37312824A4BE7300E82FB4 /* CoronaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D85E240FEC04006257E5 /* CoronaAPIService.swift */; };
+		8B37312A24A4BE7800E82FB4 /* who_corona_advice.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B59261C2411125A008626AE /* who_corona_advice.json */; };
+		8B37312B24A4BE8200E82FB4 /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF424A28476008D28DA /* PieChartCell.swift */; };
+		8B37312C24A4BE8200E82FB4 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF524A28476008D28DA /* PieChartView.swift */; };
+		8B37312D24A4BE8200E82FB4 /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF324A28476008D28DA /* PieChartRow.swift */; };
+		8B37312E24A4BE8200E82FB4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF624A28476008D28DA /* Helpers.swift */; };
+		8B37312F24A4BE8200E82FB4 /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF424A28476008D28DA /* PieChartCell.swift */; };
+		8B37313024A4BE8200E82FB4 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF524A28476008D28DA /* PieChartView.swift */; };
+		8B37313124A4BE8200E82FB4 /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF324A28476008D28DA /* PieChartRow.swift */; };
+		8B37313224A4BE8200E82FB4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CEF624A28476008D28DA /* Helpers.swift */; };
+		8B37313324A4BE8C00E82FB4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
+		8B37313424A4BE8F00E82FB4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D412411E815007090C7 /* Utils.swift */; };
+		8B37313524A4BE9600E82FB4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D3D2411E7DF007090C7 /* Model.swift */; };
+		8B37313624A4BE9700E82FB4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A7D3D2411E7DF007090C7 /* Model.swift */; };
+		8B37313724A4BE9900E82FB4 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1AC2413039B0099491A /* About.swift */; };
+		8B37313A24A4C08200E82FB4 /* StatsWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37313924A4C08200E82FB4 /* StatsWidgetEntryView.swift */; };
 		8B41D84B240FE936006257E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84A240FE936006257E5 /* AppDelegate.swift */; };
 		8B41D84D240FE936006257E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84C240FE936006257E5 /* SceneDelegate.swift */; };
 		8B41D84F240FE936006257E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41D84E240FE936006257E5 /* ContentView.swift */; };
@@ -55,6 +83,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8B37311B24A4BDBD00E82FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B41D83F240FE936006257E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B37311024A4BDBC00E82FB4;
+			remoteInfo = StatsWidgetMacExtensionExtension;
+		};
 		8BAAAF5424A254730062300D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8B41D83F240FE936006257E5 /* Project object */;
@@ -72,6 +107,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				8BAAAF5624A254730062300D /* StatsWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B37312124A4BDBD00E82FB4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B37311D24A4BDBD00E82FB4 /* StatsWidgetMacExtensionExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +140,20 @@
 		8B2A7D412411E815007090C7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		8B2A7D442411E978007090C7 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
 		8B356A5D24A2F96200DE8424 /* StatsWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsWidgetEntryView.swift; sourceTree = "<group>"; };
+		8B3730FD24A4BD1D00E82FB4 /* CoronaVirusTrackerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirusTrackerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3730FF24A4BD1D00E82FB4 /* CoronaVirusTrackerMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaVirusTrackerMacApp.swift; sourceTree = "<group>"; };
+		8B37310124A4BD1D00E82FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B37310324A4BD1E00E82FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B37310624A4BD1E00E82FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B37310824A4BD1E00E82FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B37310924A4BD1E00E82FB4 /* CoronaVirusTrackerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoronaVirusTrackerMac.entitlements; sourceTree = "<group>"; };
+		8B37311124A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsWidgetMacExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B37311524A4BDBD00E82FB4 /* StatsWidgetMacExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsWidgetMacExtension.swift; sourceTree = "<group>"; };
+		8B37311724A4BDBD00E82FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B37311924A4BDBD00E82FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B37311A24A4BDBD00E82FB4 /* StatsWidgetMacExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetMacExtension.entitlements; sourceTree = "<group>"; };
+		8B37312424A4BE4200E82FB4 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		8B37313924A4C08200E82FB4 /* StatsWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsWidgetEntryView.swift; sourceTree = "<group>"; };
 		8B41D847240FE936006257E5 /* CoronaVirusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B41D84A240FE936006257E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B41D84C240FE936006257E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +184,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B3730FA24A4BD1D00E82FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B37310E24A4BDBC00E82FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B37311324A4BDBD00E82FB4 /* SwiftUI.framework in Frameworks */,
+				8B37311224A4BDBD00E82FB4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B41D844240FE936006257E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,11 +333,55 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		8B3730FE24A4BD1D00E82FB4 /* CoronaVirusTrackerMac */ = {
+			isa = PBXGroup;
+			children = (
+				8B3730FF24A4BD1D00E82FB4 /* CoronaVirusTrackerMacApp.swift */,
+				8B37310124A4BD1D00E82FB4 /* ContentView.swift */,
+				8B37310324A4BD1E00E82FB4 /* Assets.xcassets */,
+				8B37310824A4BD1E00E82FB4 /* Info.plist */,
+				8B37310924A4BD1E00E82FB4 /* CoronaVirusTrackerMac.entitlements */,
+				8B37310524A4BD1E00E82FB4 /* Preview Content */,
+			);
+			path = CoronaVirusTrackerMac;
+			sourceTree = "<group>";
+		};
+		8B37310524A4BD1E00E82FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B37310624A4BD1E00E82FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B37311424A4BDBD00E82FB4 /* StatsWidgetMacExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8B37311524A4BDBD00E82FB4 /* StatsWidgetMacExtension.swift */,
+				8B37311724A4BDBD00E82FB4 /* Assets.xcassets */,
+				8B37311924A4BDBD00E82FB4 /* Info.plist */,
+				8B37311A24A4BDBD00E82FB4 /* StatsWidgetMacExtension.entitlements */,
+				8B37313924A4C08200E82FB4 /* StatsWidgetEntryView.swift */,
+			);
+			path = StatsWidgetMacExtension;
+			sourceTree = "<group>";
+		};
+		8B37312324A4BE0700E82FB4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				8B37312424A4BE4200E82FB4 /* Provider.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		8B41D83E240FE936006257E5 = {
 			isa = PBXGroup;
 			children = (
+				8B37312324A4BE0700E82FB4 /* New Group */,
 				8B41D849240FE936006257E5 /* CoronaVirusTracker */,
 				8BAAAF4E24A254720062300D /* StatsWidget */,
+				8B3730FE24A4BD1D00E82FB4 /* CoronaVirusTrackerMac */,
+				8B37311424A4BDBD00E82FB4 /* StatsWidgetMacExtension */,
 				8B41D848240FE936006257E5 /* Products */,
 				337021FD546979672A2FEEC7 /* Frameworks */,
 			);
@@ -272,6 +392,8 @@
 			children = (
 				8B41D847240FE936006257E5 /* CoronaVirusTracker.app */,
 				8BAAAF4924A254720062300D /* StatsWidgetExtension.appex */,
+				8B3730FD24A4BD1D00E82FB4 /* CoronaVirusTrackerMac.app */,
+				8B37311124A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +468,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8B3730FC24A4BD1D00E82FB4 /* CoronaVirusTrackerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B37310C24A4BD1E00E82FB4 /* Build configuration list for PBXNativeTarget "CoronaVirusTrackerMac" */;
+			buildPhases = (
+				8B3730F924A4BD1D00E82FB4 /* Sources */,
+				8B3730FA24A4BD1D00E82FB4 /* Frameworks */,
+				8B3730FB24A4BD1D00E82FB4 /* Resources */,
+				8B37312124A4BDBD00E82FB4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B37311C24A4BDBD00E82FB4 /* PBXTargetDependency */,
+			);
+			name = CoronaVirusTrackerMac;
+			productName = CoronaVirusTrackerMac;
+			productReference = 8B3730FD24A4BD1D00E82FB4 /* CoronaVirusTrackerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B37311024A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B37311E24A4BDBD00E82FB4 /* Build configuration list for PBXNativeTarget "StatsWidgetMacExtensionExtension" */;
+			buildPhases = (
+				8B37310D24A4BDBC00E82FB4 /* Sources */,
+				8B37310E24A4BDBC00E82FB4 /* Frameworks */,
+				8B37310F24A4BDBC00E82FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsWidgetMacExtensionExtension;
+			productName = StatsWidgetMacExtensionExtension;
+			productReference = 8B37311124A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8B41D846240FE936006257E5 /* CoronaVirusTracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B41D85B240FE937006257E5 /* Build configuration list for PBXNativeTarget "CoronaVirusTracker" */;
@@ -392,6 +550,12 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Alfian Losari";
 				TargetAttributes = {
+					8B3730FC24A4BD1D00E82FB4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8B37311024A4BDBC00E82FB4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					8B41D846240FE936006257E5 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -415,11 +579,31 @@
 			targets = (
 				8B41D846240FE936006257E5 /* CoronaVirusTracker */,
 				8BAAAF4824A254720062300D /* StatsWidgetExtension */,
+				8B3730FC24A4BD1D00E82FB4 /* CoronaVirusTrackerMac */,
+				8B37311024A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B3730FB24A4BD1D00E82FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B37312A24A4BE7800E82FB4 /* who_corona_advice.json in Resources */,
+				8B37310724A4BD1E00E82FB4 /* Preview Assets.xcassets in Resources */,
+				8B37310424A4BD1E00E82FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B37310F24A4BDBC00E82FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B37311824A4BDBD00E82FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B41D845240FE936006257E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,6 +626,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B3730F924A4BD1D00E82FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B37313524A4BE9600E82FB4 /* Model.swift in Sources */,
+				8B37312D24A4BE8200E82FB4 /* PieChartRow.swift in Sources */,
+				8B37312E24A4BE8200E82FB4 /* Helpers.swift in Sources */,
+				8B37310224A4BD1D00E82FB4 /* ContentView.swift in Sources */,
+				8B37312C24A4BE8200E82FB4 /* PieChartView.swift in Sources */,
+				8B37313724A4BE9900E82FB4 /* About.swift in Sources */,
+				8B37312B24A4BE8200E82FB4 /* PieChartCell.swift in Sources */,
+				8B37312824A4BE7300E82FB4 /* CoronaAPIService.swift in Sources */,
+				8B37310024A4BD1D00E82FB4 /* CoronaVirusTrackerMacApp.swift in Sources */,
+				8B37313424A4BE8F00E82FB4 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B37310D24A4BDBC00E82FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B37313624A4BE9700E82FB4 /* Model.swift in Sources */,
+				8B37313124A4BE8200E82FB4 /* PieChartRow.swift in Sources */,
+				8B37313224A4BE8200E82FB4 /* Helpers.swift in Sources */,
+				8B37312624A4BE4200E82FB4 /* Provider.swift in Sources */,
+				8B37313024A4BE8200E82FB4 /* PieChartView.swift in Sources */,
+				8B37312F24A4BE8200E82FB4 /* PieChartCell.swift in Sources */,
+				8B37312724A4BE6F00E82FB4 /* CoronaAPIService.swift in Sources */,
+				8B37313A24A4C08200E82FB4 /* StatsWidgetEntryView.swift in Sources */,
+				8B37311624A4BDBD00E82FB4 /* StatsWidgetMacExtension.swift in Sources */,
+				8B37313324A4BE8C00E82FB4 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B41D843240FE936006257E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,6 +707,7 @@
 				8BAAAF5024A254720062300D /* StatsWidget.swift in Sources */,
 				8B356A5F24A2F97400DE8424 /* StatsWidgetEntryView.swift in Sources */,
 				8B70CEEE24A2601E008D28DA /* Model.swift in Sources */,
+				8B37312524A4BE4200E82FB4 /* Provider.swift in Sources */,
 				8B70CEEF24A2602C008D28DA /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +715,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8B37311C24A4BDBD00E82FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B37311024A4BDBC00E82FB4 /* StatsWidgetMacExtensionExtension */;
+			targetProxy = 8B37311B24A4BDBD00E82FB4 /* PBXContainerItemProxy */;
+		};
 		8BAAAF5524A254730062300D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8BAAAF4824A254720062300D /* StatsWidgetExtension */;
@@ -515,6 +739,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8B37310A24A4BD1E00E82FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = CoronaVirusTrackerMac/CoronaVirusTrackerMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CoronaVirusTrackerMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoronaVirusTrackerMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B37310B24A4BD1E00E82FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = CoronaVirusTrackerMac/CoronaVirusTrackerMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CoronaVirusTrackerMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoronaVirusTrackerMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8B37311F24A4BDBD00E82FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = StatsWidgetMacExtension/StatsWidgetMacExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = StatsWidgetMacExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.StatsWidgetMacExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B37312024A4BDBD00E82FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = StatsWidgetMacExtension/StatsWidgetMacExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = StatsWidgetMacExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.CoronaVirusTracker.StatsWidgetMacExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		8B41D859240FE937006257E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,6 +1052,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8B37310C24A4BD1E00E82FB4 /* Build configuration list for PBXNativeTarget "CoronaVirusTrackerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B37310A24A4BD1E00E82FB4 /* Debug */,
+				8B37310B24A4BD1E00E82FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B37311E24A4BDBD00E82FB4 /* Build configuration list for PBXNativeTarget "StatsWidgetMacExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B37311F24A4BDBD00E82FB4 /* Debug */,
+				8B37312024A4BDBD00E82FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B41D842240FE936006257E5 /* Build configuration list for PBXProject "CoronaVirusTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
