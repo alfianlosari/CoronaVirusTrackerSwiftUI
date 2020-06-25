@@ -9,7 +9,6 @@
 import WidgetKit
 import SwiftUI
 
-
 struct Provider: TimelineProvider {
     public typealias Entry = CaseEntry
     private let service = CoronaArcGISService.shared
@@ -32,8 +31,6 @@ struct Provider: TimelineProvider {
                 }
             }
         }
-        
-        
     }
     
     public func timeline(with context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
