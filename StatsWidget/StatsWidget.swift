@@ -40,7 +40,7 @@ struct Provider: TimelineProvider {
         service.getAllTotalCount { (result) in
             switch result {
             case .success(let totalCount):
-                let timeline = Timeline(entries: [CaseEntry(date: Date(), totalCount: totalCount)], policy: .atEnd)
+                let timeline = Timeline(entries: [CaseEntry(date: Date(), totalCount: totalCount)], policy: .after(Date().addingTimeInterval(1800)))
                 completion(timeline)
                 
             case .failure(let error):
