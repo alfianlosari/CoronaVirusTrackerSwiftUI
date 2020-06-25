@@ -8,13 +8,11 @@
 
 import UIKit
 import SwiftUI
-import WidgetKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        WidgetCenter.shared.reloadAllTimelines()
         
         let caseObservable = CoronaCaseObservedObject()
         let contentView = ContentView()
