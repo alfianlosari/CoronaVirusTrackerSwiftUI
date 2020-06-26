@@ -18,8 +18,6 @@ let sickColor = Color(red: 253/255, green: 131/255, blue: 68/255)
 struct StatsWidgetEntryView : View {
     var entry: Provider.Entry
     @Environment(\.widgetFamily) var family
-    
-    
 
     @ViewBuilder
     var body: some View {

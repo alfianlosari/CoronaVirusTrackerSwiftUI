@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        NavigationView {
+            SidebarMenuView()
+                .frame(minWidth: 200, maxWidth: 200, maxHeight: .infinity)
+            StatsView()
+        }
+        .frame(minWidth: 1000, maxWidth: .infinity, minHeight: 560, maxHeight: .infinity)
     }
 }
 

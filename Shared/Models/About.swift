@@ -23,7 +23,7 @@ struct About {
 extension About {
     
     static var defaultAbout: About {
-        About(title: "Made by ❤️. GitHub: alfianlosari\n\nWebsite:\nhttps://alfianlosari.com | Xcoding With Alfian\n\n©2020 Alfian Losari. All Rights Reserved", copyrights: [
+        About(title: "Made with ❤️. GitHub: alfianlosari\n\nhttps://alfianlosari.com | Xcoding With Alfian\n©2020 Alfian Losari. All Rights Reserved", copyrights: [
             .init(title: "Statistic & Map Copyright", license: """
             ArcGIS Corona Virus Datasets.
             https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases/FeatureServer/1/query

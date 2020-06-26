@@ -10,10 +10,26 @@ import SwiftUI
 
 extension View {
     
+    var cardContainedColor: Color {
+        #if os(iOS)
+        return Color(UIColor.systemBackground)
+        #elseif os(macOS)
+        return Color(NSColor.controlBackgroundColor)
+        #endif
+    }
+    
     func cardContained(cornerRadius: CGFloat = 8) -> some View {
         self
         .padding(.all)
-        .background(Color(UIColor.systemBackground))
+        .background(cardContainedColor)
         .cornerRadius(cornerRadius)
+    }
+    
+    func navigationTitle(title: String) -> some View {
+        #if os(iOS)
+        return self.navigationBarTitle(topic.title, displayMode: .inline)
+        #elseif os(macOS)
+        return self
+        #endif
     }
 }

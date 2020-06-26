@@ -12,14 +12,19 @@ import SwiftUI
 
 @main
 struct CoronaVirusTrackerMacApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CoronaCaseObservedObject())
                 .onAppear {
                     WidgetCenter.shared.reloadAllTimelines()
                 }
-                
         }
         
+        .windowStyle(HiddenTitleBarWindowStyle())
+        
     }
+    
+    
 }

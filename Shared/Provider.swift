@@ -42,7 +42,7 @@ struct Provider: TimelineProvider {
                 
             case .failure(let error):
                 print(error.localizedDescription)
-                let timeline = Timeline(entries: [CaseEntry(date: Date(), totalCount: nil)], policy: .atEnd)
+                let timeline = Timeline(entries: [CaseEntry(date: Date(), totalCount: nil)], policy: .after(Date().addingTimeInterval(30)))
                 completion(timeline)
             }
         }

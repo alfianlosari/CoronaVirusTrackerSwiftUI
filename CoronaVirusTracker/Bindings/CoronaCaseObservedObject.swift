@@ -38,19 +38,22 @@ class CoronaCaseObservedObject: ObservableObject {
             case .success(let cases):
                 var dict = [String: [CoronaCase]]()
                 cases.forEach { (coronaCase) in
-                    if var cases = dict[coronaCase.country] {
+                    guard let country = coronaCase.country else {
+                        return
+                    }
+                    if var cases = dict[country] {
                         cases.append(coronaCase)
-                        dict[coronaCase.country] = cases
+                        dict[country] = cases
                     } else {
-                        dict[coronaCase.country] = [coronaCase]
+                        dict[country] = [coronaCase]
                     }
                 }
-                dict = dict.mapValues { $0.sorted { $0.confirmed > $1.confirmed }}
+                dict = dict.mapValues { $0.sorted { $0.confirmed ?? 0 > $1.confirmed ?? 0 }}
                 
                 let countryCases = dict.map { (key, value) -> CoronaCountryCase in
-                    let totalConfirmedCount = value.reduce(0) { $0 + $1.confirmed }
-                    let totalDeathsCount = value.reduce(0) { $0 + $1.deaths }
-                    let totalRecoveredCount = value.reduce(0) { $0 + $1.recovered }
+                    let totalConfirmedCount = value.reduce(0) { $0 + ($1.confirmed ?? 0) }
+                    let totalDeathsCount = value.reduce(0) { $0 + ($1.deaths ?? 0) }
+                    let totalRecoveredCount = value.reduce(0) { $0 + ($1.recovered ?? 0) }
                     
                     return CoronaCountryCase(country: key, totalConfirmedCount: totalConfirmedCount, totalDeathCount: totalDeathsCount, totalRecoveredCount: totalRecoveredCount, cases: value)
                     

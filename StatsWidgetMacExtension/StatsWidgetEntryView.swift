@@ -59,12 +59,12 @@ struct CasePieRow: View {
             
             VStack(spacing: 16) {
                 VStack {
-                    Text(totalCount?.recoveryRateText ?? "--").font(.system(size: 28, weight: .semibold)).foregroundColor(recoveredColor)
+                    Text(totalCount?.recoveryRateText ?? "--").font(.system(size: 24, weight: .semibold)).foregroundColor(recoveredColor)
                     Text("Recovery Rate").font(.system(size: 12, weight: .regular))
                 }
                 
                 VStack {
-                    Text(totalCount?.fataliityRateText ?? "--").font(.system(size: 28, weight: .semibold)).foregroundColor(deathColor)
+                    Text(totalCount?.fataliityRateText ?? "--").font(.system(size: 24, weight: .semibold)).foregroundColor(deathColor)
                     Text("Fatality Rate").font(.system(size: 12, weight: .regular))
                 }
             }
@@ -81,7 +81,6 @@ struct CaseStatGrid: View {
     let columns: [GridItem] = Array(repeating: .init(.flexible(), spacing: 0), count: 2)
     
     var body: some View {
-        
         LazyVGrid(columns: columns, alignment: .center, spacing: 0) {
             CaseStatViewRegular(text: "Confirmed", totalCountText: totalCount?.confirmedText ?? "--", color: confirmedColor, verticalPadding: verticalPadding)
             CaseStatViewRegular(text: "Deaths", totalCountText: totalCount?.deathText ?? "--", color: deathColor, verticalPadding: verticalPadding)
@@ -110,7 +109,6 @@ struct CaseStatViewRegular: View {
         .background(color)
     }
 }
-
 
 struct CaseStatViewCompact: View {
     

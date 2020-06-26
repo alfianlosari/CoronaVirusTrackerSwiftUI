@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import UIKit
 
 struct AboutView: View {
     
@@ -17,10 +16,9 @@ struct AboutView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 32) {
-                  Text(about.title)
+                    Text(about.title)
                         .font(.body)
                         .cardContained()
-                    
                     ForEach(about.copyrights) { copy in
                         VStack(alignment: .leading, spacing: 8) {
                             SectionCardView(title: copy.title, subtitle: copy.license)
@@ -34,3 +32,4 @@ struct AboutView: View {
         }
     }
 }
+

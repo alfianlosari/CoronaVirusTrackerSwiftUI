@@ -22,6 +22,4 @@ struct SectionCardView: View {
                 .cardContained()
         }
     }
-    
 }
-

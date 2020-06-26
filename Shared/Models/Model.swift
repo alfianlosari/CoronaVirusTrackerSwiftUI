@@ -101,24 +101,24 @@ struct CoronaCase: Decodable {
     
     let id: Int
     let state: String?
-    let country: String
+    let country: String?
     let lastUpdatedAt: Date
     let latitude: Double?
     let longitude: Double?
-    let confirmed: Int
-    let deaths: Int
-    let recovered: Int
+    let confirmed: Int?
+    let deaths: Int?
+    let recovered: Int?
     
     var confirmedText: String {
-        Utils.numberFormatter.string(from: NSNumber(value: confirmed)) ?? "0"
+        Utils.numberFormatter.string(from: NSNumber(value: confirmed ?? 0)) ?? "0"
     }
     
     var deathText: String {
-        Utils.numberFormatter.string(from: NSNumber(value: deaths)) ?? "0"
+        Utils.numberFormatter.string(from: NSNumber(value: deaths ?? 0)) ?? "0"
     }
     
     var recoveredText: String {
-        Utils.numberFormatter.string(from: NSNumber(value: recovered)) ?? "0"
+        Utils.numberFormatter.string(from: NSNumber(value: recovered ?? 0)) ?? "0"
     }
     
     enum CodingKeys: String, CodingKey {
