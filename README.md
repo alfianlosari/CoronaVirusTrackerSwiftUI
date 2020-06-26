@@ -1,4 +1,4 @@
-# Corona Virus Tracker & Advices iOS App with SwiftUI
+# Corona Virus Stats & Advices App with SwiftUI
 
 ![Alt text](./promo.jpg?raw=true "Corona Virus Tracker & Advices iOS App")
 ![Alt text](./widgetkit.jpg?raw=true "Corona Virus Tracker & Advices Widget")
@@ -14,7 +14,7 @@
 
 ## Requirements
 - Xcode 11.3
-- Xcode 12 (iOS 14 / WidgetKit) Branch
+- Xcode 12 (iOS 14 / macOS Big Sur / WidgetKit) Branch
 
 ## Getting Started
 - Clone or download
