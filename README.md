@@ -2,6 +2,7 @@
 
 ![Alt text](./promo.jpg?raw=true "Corona Virus Tracker & Advices iOS App")
 ![Alt text](./widgetkit.jpg?raw=true "Corona Virus Tracker & Advices Widget")
+![Alt text](./mac.jpg?raw=true "Corona Virus Tracker & Advices macOS App")
 
 ## Features
 - Current statistics of global total confirmed, deaths, recovered cases.
